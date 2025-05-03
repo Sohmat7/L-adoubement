@@ -1,0 +1,63 @@
+.bg-color {
+  background-color: #453126; 
+}
+
+.fx {
+    display: flex;
+  }
+  
+  .fx-row-wrap {
+    flex-flow: row wrap;
+    background-color: #453126; 
+    }
+  
+  .fx-layout-align-space-evenly-stretch {
+    place-content: stretch space-evenly;
+    align-items: stretch;
+  }
+  
+  .product {
+    flex: 0 0 calc(33% - 16px);
+    box-sizing: border-box;
+    max-width: calc(33% - 16px);
+    min-width: calc(33% - 16px);
+  
+    @media screen and (max-width: 599px) {
+      flex: 1 1 calc(90% - 16px);
+      box-sizing: border-box;
+      min-width: calc(90% - 16px);
+      max-width: 100%;
+    }
+  
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+      flex: 0 0 calc(50% - 16px);
+      box-sizing: border-box;
+      min-width: calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  @font-face {
+    font-family: 'Norse'; /*a name to be used later*/
+    src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/
+}
+
+  .norse-font {
+    font-family: 'Norse';
+    color: white;
+    font-size: 40px;
+  }
+
+  .text-center {
+    display: block;
+    margin: auto;
+
+  }
+
+  .logo {
+    width: 3%;
+  }
+
+  .test {
+    margin-left: -25%;
+  }

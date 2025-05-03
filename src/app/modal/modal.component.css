@@ -1,0 +1,113 @@
+
+.stylized-radio-button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 100px 20px 10px;
+    margin: 150px 40px 20px 20px;
+}
+
+.player-bg-image-clem {
+    background-image: url('../../assets/personnes/clem.png');
+  }
+
+.player-bg-image-soma {
+  background-image: url('../../assets/personnes/soma.png');
+}
+
+.player-bg-image-bastian {
+  background-image: url('../../assets/personnes/bastian.png');
+}
+
+.player-bg-image-faustin {
+  background-image: url('../../assets/personnes/faustin.png');
+}
+
+.player-bg-image-loic {
+  background-image: url('../../assets/personnes/loic.png');
+}
+
+.color {
+    background-color: #4b5641;
+    height: 100%;
+  }
+  
+  .fx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fx-row-wrap {
+    flex-flow: row wrap;
+    }
+  
+  .fx-layout-align-space-evenly-stretch {
+    place-content: stretch space-evenly;
+    align-items: stretch;
+  }
+  
+  .product {
+    flex: 1 0 48%; /* explanation below */
+    margin: 1%;
+    height: 1200px;
+    width: 40%;
+  
+    @media screen and (max-width: 599px) {
+      flex: 1 1 calc(90% - 16px);
+      box-sizing: border-box;
+      min-width: calc(90% - 16px);
+      max-width: 100%;
+    }
+  
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+      flex: 0 0 calc(50% - 16px);
+      box-sizing: border-box;
+      min-width: calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+  
+  mat-card {
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  mat-card-subtitle {
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  
+  mat-card-title {
+    color: white;
+    font-size: 100px;
+  }
+  
+  
+  .title-card-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 700px;
+    background-size: cover;  
+  
+  }
+  .mat-card-main-title {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 22px;
+  }
+  
+  @font-face {
+    font-family: 'Norse'; /*a name to be used later*/
+    src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/
+  }
+  
+  .norse-font {
+    font-family: 'Norse';
+    color: white;
+    font-size: 60px;
+  }
+
+  .mat-mdc-dialog-content {
+    max-height: initial;
+  }

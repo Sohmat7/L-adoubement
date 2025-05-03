@@ -1,0 +1,30 @@
+<header>
+    <app-nav-bar></app-nav-bar>
+
+    <mat-toolbar class="fx fx-row-wrap fx-layout-align-stretch fx-layout-align-space-evenly-stretch" color="primary">
+        <nav>
+            
+            <button mat-button [matMenuTriggerFor]="menu"  class="button-space">PARTICIPANTS</button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item routerLink="/player-choice">Joueurs</button>
+                <button mat-menu-item routerLink="/caster">Casteurs</button>
+                <button mat-menu-item routerLink="/coach">Coachs</button>
+                <button mat-menu-item routerLink="/team">Teams</button>
+                <button mat-menu-item routerLink="/staff">Staff</button>
+            </mat-menu>
+
+            <button mat-button class="button-space">
+                BRACKET
+            </button>
+            
+            <button mat-button class="button-space">
+                CLASSEMENT
+            </button>
+
+        </nav>
+        
+    </mat-toolbar>
+
+</header>
+
+<router-outlet />

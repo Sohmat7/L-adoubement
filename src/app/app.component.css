@@ -1,0 +1,40 @@
+.fx {
+    display: flex;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .fx-row-wrap {
+    flex-flow: row wrap;
+    background-color: #6a5b51; 
+    }
+  
+  .fx-layout-align-space-evenly-stretch {
+    place-content: stretch space-evenly;
+    align-items: stretch;
+  }
+  
+  .product {
+    flex: 0 0 calc(33% - 16px);
+    box-sizing: border-box;
+    max-width: calc(33% - 16px);
+    min-width: calc(33% - 16px);
+  
+    @media screen and (max-width: 599px) {
+      flex: 1 1 calc(90% - 16px);
+      box-sizing: border-box;
+      min-width: calc(90% - 16px);
+      max-width: 100%;
+    }
+  
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+      flex: 0 0 calc(50% - 16px);
+      box-sizing: border-box;
+      min-width: calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  .button-space {
+    margin-right: 40px;
+  }

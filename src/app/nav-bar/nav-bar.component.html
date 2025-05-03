@@ -1,0 +1,27 @@
+<header>
+
+
+    <mat-toolbar class="bg-color" color="primary">
+        
+        <img mat-card-image src="/assets/logo-test.png" alt="" class="logo">
+
+        <div class="text-center">
+            <span class="norse-font test"> EVERYONE IS DEER</span>
+        </div>
+        
+
+        <button mat-icon-button [matMenuTriggerFor]="dropMenu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #dropMenu="matMenu">
+            <ng-container *ngFor="let item of menuItems">
+                <button mat-menu-item>
+                    <mat-icon class="mr">{{item.icon}}</mat-icon>
+                    {{item.label}}
+                </button>
+                <mat-divider></mat-divider>
+            </ng-container>
+        </mat-menu>
+    </mat-toolbar>
+
+</header>

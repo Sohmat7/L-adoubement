@@ -1,0 +1,161 @@
+mat-card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.color {
+    background-color: #4b5641;
+    height: 100%;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fx-row-wrap {
+    flex-flow: row wrap;
+    }
+  
+  .width-19 {
+    width: 19%;
+  }
+  
+  .fx-layout-align-space-evenly-stretch {
+    place-content: stretch space-evenly;
+    align-items: stretch;
+  }
+  
+  .product {
+    flex: 1 0 23%; /* explanation below */
+    margin: 1%;
+    height: 200px;
+    max-width: 24%;
+  
+    @media screen and (max-width: 599px) {
+      flex: 1 1 calc(90% - 16px);
+      box-sizing: border-box;
+      min-width: calc(90% - 16px);
+      max-width: 100%;
+    }
+  
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+      flex: 0 0 calc(50% - 16px);
+      box-sizing: border-box;
+      min-width: calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  mat-card {
+    background-color: transparent;
+    padding: 10px;
+  }
+
+  mat-card-subtitle {
+    background-color: transparent;
+    margin-top: 10px;
+  }
+
+  mat-card-title {
+    color: white;
+  }
+
+  .card-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    background-size: cover;  
+    border: 1px solid black;
+
+  }
+
+  .title-card-img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 800px;
+    height: 150px;
+    background-size: cover;  
+
+  }
+
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+  }
+
+  mat-card-actions {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .player-bg-image-azerty {
+    background-image: url('../../assets/azerty.png');
+  }
+
+  .player-bg-image-fei {
+    background-image: url('../../assets/fei.png');
+  }
+
+  .player-bg-image-ckc {
+    background-image: url('../../assets/ckc.png');
+  }
+
+  .player-bg-image-sapinos {
+    background-image: url('../../assets/sapinos.png');
+  }
+
+  .player-bg-image-smogoth {
+    background-image: url('../../assets/smogoth.png');
+  }
+
+  .player-bg-image-bearr {
+    background-image: url('../../assets/bearr.png');
+  }
+
+  .player-bg-image-drazai {
+    background-image: url('../../assets/drazai.png');
+  }
+
+  .player-bg-image-irto {
+    background-image: url('../../assets/irtozero.png');
+  }
+
+  .player-bg-image-slacker {
+    background-image: url('../../assets/slacker.png');
+  }
+
+  @font-face {
+    font-family: 'Norse'; /*a name to be used later*/
+    src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/
+  }
+
+  .norse-font {
+    font-family: 'Norse';
+    color: white;
+    font-size: 40px;
+  }
+
+  .object-align {
+    width: 75%;
+    margin-left: 30%;
+  }
+
+  .mat-card-title-center {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 42px;
+  }
+
+  .mat-card-main-title {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 22px;
+  }

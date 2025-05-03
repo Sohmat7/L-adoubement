@@ -1,0 +1,41 @@
+
+<mat-dialog-content>
+    <h2 mat-dialog-title> {{ data.name }} </h2>
+    <mat-divider></mat-divider>
+<br><br>
+
+
+<div class="fx fx-row-wrap fx-layout-align-stretch fx-layout-align-space-evenly-stretch width-80">
+    <div class="title-card-img product player-bg-image-clem" *ngIf="data.name==='Clemclou'">
+
+    </div>
+    <div class="title-card-img product player-bg-image-soma" *ngIf="data.name==='Soma'">
+
+    </div>
+    <div class="title-card-img product player-bg-image-faustin" *ngIf="data.name==='Rouxblart'">
+
+    </div>
+    <div class="title-card-img product player-bg-image-loic" *ngIf="data.name==='Loic'">
+
+    </div>
+    <div class="title-card-img product player-bg-image-bastian" *ngIf="data.name==='Nesquik'">
+
+    </div>
+    <div class="title-card-img product player-bg-image-mateo" *ngIf="data.name==='Qinmao'">
+
+    </div>
+
+
+
+
+    <div class="title-card-img product">
+        {{ data.description }}
+    </div>
+</div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-button mat-dialog-close>retour</button>
+</mat-dialog-actions>
+

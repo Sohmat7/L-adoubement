@@ -1,0 +1,64 @@
+import { RouterModule, Routes } from '@angular/router';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MainTabComponent } from './main-tab/main-tab.component';
+import { NgModule } from '@angular/core';
+import { CrystalBallPageComponent } from './crystal-ball-page/crystal-ball-page.component';
+import { PlayerChoiceComponent } from './player-choice/player-choice.component';
+import { CasterComponent } from './caster/caster.component';
+import { CoachComponent } from './coach/coach.component';
+import { TeamComponent } from './team/team.component';
+import { StaffComponent } from './staff/staff.component';
+
+
+export const appRoutes: Routes = [
+    {
+        path: 'home',
+        component: MainTabComponent,
+        outlet: 'popup'
+    },
+    {
+        path: 'nav-bar',
+        component: NavBarComponent,
+        outlet: 'popup'
+    },
+    {
+        path: 'crystal',
+        component: CrystalBallPageComponent
+    },
+    {
+        path: 'player-choice',
+        component: PlayerChoiceComponent
+    },
+    {
+        path: 'caster',
+        component: CasterComponent
+    },
+    {
+        path: 'coach',
+        component: CoachComponent
+    },
+    {
+        path: 'team',
+        component: TeamComponent
+    },
+    {
+        path: 'staff',
+        component: StaffComponent
+    },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+  ];
+
+@NgModule({
+    imports: [
+        RouterModule.forRoot(
+            appRoutes,
+            {
+            enableTracing: false, // <-- debugging purposes only
+            }
+        )
+    ],
+    exports: [
+        RouterModule
+    ]
+})
+export class AppRoutingModule { }

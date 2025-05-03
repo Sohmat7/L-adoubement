@@ -1,0 +1,77 @@
+.color {
+    background-color: #4b5641;
+    height: 100%;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fx-row-wrap {
+    flex-flow: row wrap;
+    }
+  
+  .fx-layout-align-space-evenly-stretch {
+    place-content: stretch space-evenly;
+    align-items: stretch;
+  }
+  
+  .product {
+    flex: 1 0 14%; /* explanation below */
+    margin: 2%;
+    height: 400px;
+  
+    @media screen and (max-width: 599px) {
+      flex: 1 1 calc(90% - 16px);
+      box-sizing: border-box;
+      min-width: calc(90% - 16px);
+      max-width: 100%;
+    }
+  
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+      flex: 0 0 calc(50% - 16px);
+      box-sizing: border-box;
+      min-width: calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  mat-card {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+  }
+
+  mat-card-title {
+    color: white;
+  }
+
+  .width-80 {
+  width: 70%;
+  margin-left: 15%;
+  }
+
+  .card-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    background-image: url('../../assets/placeholder.png');
+    background-size: cover;  
+    border: 0px transparent;
+  }
+
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+  }
+
+  mat-card-actions {
+    margin-top: auto;
+    text-align: center;
+  }
