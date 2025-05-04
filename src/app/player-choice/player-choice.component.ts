@@ -22,18 +22,33 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
 export class PlayerChoiceComponent {
 
 
+  data = [
+    "J'ai fait le site. \n Y'a des bugs mais tranquille",
+    'hfisdhofsdjoi',
+    "coucou",
+    "le boss",
+    "re coucou",
+    "gyfdhu d zgyde gz gdiz giuydqz ghiudqs huodq shui",
+    "re coucou",
+    "re coucou"
+  ]
+
+
+
+
   nametest: string | undefined = ''
 
   dialog = inject(MatDialog);
 
-  openDialog(id: string) {
-    this.nametest = document.getElementById(id)?.innerHTML;
+  openDialog(name: string, id: number) {
+
     this.dialog.open(ModalComponent, {
       data: {
-        name: this.nametest,
+        name: name,
+        description: this.data[id]
       },
-      height: '600px',
-      width: '1200px',
+      height: '900px',
+      width: '1500px',
       maxWidth: '1500px'
     });
   }

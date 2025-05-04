@@ -21,18 +21,27 @@ import { ActivatedRoute } from '@angular/router';
 export class TeamComponent {
 
 
+  data = [
+    "bla bla",
+    'hfisdhofsdjoi',
+    "coucou",
+    "le edjzuiahdqs",
+  ]
+
+
   nametest: string | undefined = ''
 
   dialog = inject(MatDialog);
 
-  openDialog(id: string) {
-    this.nametest = document.getElementById(id)?.innerHTML;
+  openDialog(name: string, id: number) {
+
     this.dialog.open(ModalComponent, {
       data: {
-        name: this.nametest,
+        name: name,
+        description: this.data[id]
       },
-      height: '600px',
-      width: '1200px',
+      height: '900px',
+      width: '1500px',
       maxWidth: '1500px'
     });
   }

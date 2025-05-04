@@ -7,23 +7,122 @@
 }
 
 .player-bg-image-clem {
-    background-image: url('../../assets/personnes/clem.png');
+    background-image: url('../../assets/personnes/clem1.png');
   }
 
 .player-bg-image-soma {
-  background-image: url('../../assets/personnes/soma.png');
+  background-image: url('../../assets/personnes/soma1.png');
 }
 
 .player-bg-image-bastian {
-  background-image: url('../../assets/personnes/bastian.png');
+  background-image: url('../../assets/personnes/bastian1.png');
 }
 
 .player-bg-image-faustin {
-  background-image: url('../../assets/personnes/faustin.png');
+  background-image: url('../../assets/personnes/faustin1.png');
 }
 
 .player-bg-image-loic {
-  background-image: url('../../assets/personnes/loic.png');
+  background-image: url('../../assets/personnes/loic1.png');
+}
+
+
+.player-bg-image-tilte {
+  background-image: url('../../assets/personnes/tilte1.png');
+}
+
+.player-bg-image-faroc {
+  background-image: url('../../assets/personnes/faroc1.png');
+}
+
+.player-bg-image-ocarno {
+  background-image: url('../../assets/personnes/ocarno1.png');
+}
+
+.player-bg-image-picpic {
+  background-image: url('../../assets/personnes/picpic1.png');
+}
+
+.player-bg-image-jaaj {
+  background-image: url('../../assets/personnes/jaaj1.png');
+}
+
+.player-bg-image-maxyoursgarou {
+  background-image: url('../../assets/personnes/maxioursgarou1.png');
+}
+
+.player-bg-image-p2v {
+  background-image: url('../../assets/personnes/soma1.png');
+}
+
+.player-bg-image-talion {
+  background-image: url('../../assets/personnes/talion1.png');
+}
+
+
+.player-bg-image-baskoy {
+  background-image: url('../../assets/personnes/baskoy1.png');
+}
+
+.player-bg-image-sourif {
+  background-image: url('../../assets/personnes/sourif1.png');
+}
+
+.player-bg-image-clem {
+  background-image: url('../../assets/personnes/clem1.png');
+}
+
+.player-bg-image-slacker {
+  background-image: url('../../assets/personnes/slacker1.png');
+}
+
+
+.player-bg-image-azerty {
+  background-image: url('../../assets/personnes/dario1.png');
+}
+
+.player-bg-image-fei {
+  background-image: url('../../assets/personnes/fei1.png');
+}
+
+.player-bg-image-ckc {
+  background-image: url('../../assets/personnes/ckc1.png');
+}
+
+.player-bg-image-sapinos {
+  background-image: url('../../assets/personnes/sapinos1.png');
+}
+
+.player-bg-image-smogoth {
+  background-image: url('../../assets/personnes/smogoth1.png');
+}
+
+.player-bg-image-bearr {
+  background-image: url('../../assets/personnes/bearr1.png');
+}
+
+.player-bg-image-drazai {
+  background-image: url('../../assets/personnes/drazai1.png');
+}
+
+.player-bg-image-irto {
+  background-image: url('../../assets/personnes/irto1.png');
+}
+
+.player-bg-image-bls {
+  background-image: url('../../assets/bls_team.jpg');
+}
+
+.player-bg-image-mpt {
+  background-image: url('../../assets/deer_team.jpg');
+}
+
+.player-bg-image-dc {
+  background-image: url('../../assets/dc_team.png');
+}
+
+.player-bg-image-ht {
+  background-image: url('../../assets/personnes/irto1.png');
 }
 
 .color {

@@ -42,7 +42,6 @@ export class StaffComponent {
     this.dialog.open(ModalComponent, {
       data: {
         name: name,
-        image: 'soma',
         description: this.data[id]
       },
       height: '900px',

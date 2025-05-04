@@ -85,38 +85,6 @@
     text-align: center;
   }
 
-  .player-bg-image-moi {
-    background-image: url('../../assets/test-banner.png');
-  }
-
-  .player-bg-image-azerty {
-    background-image: url('../../assets/azerty.png');
-  }
-
-  .player-bg-image-faustin {
-    background-image: url('../../assets/faustin.png');
-  }
-
-  .player-bg-image-le-bg {
-    background-image: url('../../assets/le-bg.png');
-  }
-
-  .player-bg-image-mrclou {
-    background-image: url('../../assets/mrclou.png');
-  }
-
-  .player-bg-image-fei {
-    background-image: url('../../assets/fei.png');
-  }
-
-  .player-bg-image-blue {
-    background-image: url('../../assets/blue.png');
-  }
-
-  .player-bg-image-bastian {
-    background-image: url('../../assets/bastian.png');
-  }
-
   @font-face {
     font-family: 'Norse'; /*a name to be used later*/
     src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/

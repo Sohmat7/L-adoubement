@@ -125,10 +125,6 @@ mat-card {
     background-image: url('../../assets/irtozero.png');
   }
 
-  .player-bg-image-slacker {
-    background-image: url('../../assets/slacker.png');
-  }
-
   @font-face {
     font-family: 'Norse'; /*a name to be used later*/
     src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/
