@@ -2,9 +2,12 @@ mat-card {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+
 .color {
-    background-color: #4b5641;
-    height: 100%;
+  background-color: #4b5641;
+  background-image: url(../../assets/adoubement2.png);
+  background-size: cover;
+  height: 100%;
 }
 
 .fx {
@@ -66,6 +69,7 @@ mat-card {
     height: 150px;
     background-size: cover;  
     border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.4);
 
   }
 
@@ -75,6 +79,7 @@ mat-card {
     border-radius: 800px;
     height: 150px;
     background-size: cover;  
+    background-color: rgba(0, 0, 0, 0.4);
 
   }
 

@@ -41,6 +41,8 @@
 
 .color {
     background-color: #4b5641;
+    background-image: url(../../assets/adoubement2.png);
+    background-size: cover;
     height: 100%;
 }
 

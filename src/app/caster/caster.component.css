@@ -1,5 +1,8 @@
+
 .color {
   background-color: #4b5641;
+  background-image: url(../../assets/adoubement2.png);
+  background-size: cover;
   height: 100%;
 }
 
@@ -39,7 +42,7 @@
 }
 
 mat-card {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
 }
 

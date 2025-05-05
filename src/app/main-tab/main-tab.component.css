@@ -59,6 +59,7 @@
     background-image: url('../../assets/placeholder.png');
     background-size: cover;  
     border: 0px transparent;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .image {

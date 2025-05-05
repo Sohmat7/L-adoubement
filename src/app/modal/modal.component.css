@@ -129,11 +129,14 @@
   background-image: url('../../assets/personnes/mateo1.jpg');
 }
 
+
 .color {
-    background-color: #4b5641;
-    height: 100%;
-  }
-  
+  background-color: #4b5641;
+  background-image: url(../../assets/adoubement2.png);
+  background-size: cover;
+  height: 100%;
+}
+
   .fx {
     display: flex;
     flex-wrap: wrap;
