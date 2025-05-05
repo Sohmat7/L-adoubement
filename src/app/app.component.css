@@ -38,3 +38,26 @@
   .button-space {
     margin-right: 40px;
   }
+
+.color {
+    background-color: #4b5641;
+    height: 100%;
+}
+
+.text-style {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.title-style {
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+
+
+.norse-font {
+  font-family: 'Norse';
+  color: white;
+}

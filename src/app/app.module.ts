@@ -10,6 +10,7 @@ import { MainTabComponent } from './main-tab/main-tab.component';
 import { MatCardSubtitle, MatCardModule } from '@angular/material/card';
 import { CrystalBallPageComponent } from './crystal-ball-page/crystal-ball-page.component';
 import { AppRoutingModule } from './app.routes';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AppRoutingModule } from './app.routes';
     AppComponent,
     NavBarComponent,
     MainTabComponent,
+    HomeComponent,
     CrystalBallPageComponent
   ],
   bootstrap: [ AppComponent ],

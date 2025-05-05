@@ -52,7 +52,7 @@
 }
 
 .player-bg-image-p2v {
-  background-image: url('../../assets/personnes/soma1.png');
+  background-image: url('../../assets/personnes/p2v1.png');
 }
 
 .player-bg-image-talion {
@@ -110,11 +110,11 @@
 }
 
 .player-bg-image-bls {
-  background-image: url('../../assets/bls_team.jpg');
+  background-image: url('../../assets/bls_team.png');
 }
 
 .player-bg-image-mpt {
-  background-image: url('../../assets/deer_team.jpg');
+  background-image: url('../../assets/deer_team.png');
 }
 
 .player-bg-image-dc {
@@ -210,3 +210,8 @@
   .mat-mdc-dialog-content {
     max-height: initial;
   }
+  
+.item-center {
+  display: block;
+  margin: auto;
+}

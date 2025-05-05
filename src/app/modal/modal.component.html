@@ -100,6 +100,24 @@
 
     <div class="title-card-img product">
         {{ data.description }}
+
+        <br> <br> <br> 
+        <video *ngIf="data.name==='La Douille Corp'" width="600" controls class="item-center">
+            <source src="../../assets/videos/dc.mp4" type="video/mp4">
+        </video>
+
+        <video *ngIf="data.name==='LA MPT'" width="600" controls class="item-center">
+            <source src="../../assets/videos/mpt.mp4" type="video/mp4">
+        </video>
+
+        <video *ngIf="data.name==='Le H Talk'" width="600" controls class="item-center">
+            <source src="../../assets/videos/ht.mp4" type="video/mp4">
+        </video>
+
+        <video *ngIf="data.name==='Le Blossom'" width="600" controls class="item-center">
+            <source src="../../assets/videos/bls.mp4" type="video/mp4">
+        </video>
+
     </div>
 </div>
 

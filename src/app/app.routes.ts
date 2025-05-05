@@ -8,12 +8,13 @@ import { CasterComponent } from './caster/caster.component';
 import { CoachComponent } from './coach/coach.component';
 import { TeamComponent } from './team/team.component';
 import { StaffComponent } from './staff/staff.component';
+import { HomeComponent } from './home/home.component';
 
 
 export const appRoutes: Routes = [
     {
         path: 'home',
-        component: MainTabComponent,
+        component: HomeComponent,
         outlet: 'popup'
     },
     {
@@ -46,6 +47,8 @@ export const appRoutes: Routes = [
         component: StaffComponent
     },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
+    
+    { path: '**', component: HomeComponent }
   ];
 
 @NgModule({
