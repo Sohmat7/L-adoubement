@@ -23,7 +23,7 @@ export class PlayerChoiceComponent {
 
 
   data = [
-    "Jaaj <br> <br> Main : Kazuya. <br> <br> Team : MPT <br> <br> Il a des étoiles dans les yeux depuis la première sd de Daiyamondo et veut devenir comme son idole. Que ce soit avec l’alcool ou ses side B il finira par tomber mais fera tout son possible pour t’emmener avec lui",
+    "Jaaj <br> <br> Main : Wolf. <br> <br> Team : MPT <br> <br> Il a des étoiles dans les yeux depuis la première sd de Daiyamondo et veut devenir comme son idole. Que ce soit avec l’alcool ou ses side B il finira par tomber mais fera tout son possible pour t’emmener avec lui",
     "Tilté <br><br>Main : Falco <br><br> Team : MPT. <br><br> Ça fait un mois qu'il vit pour le jeu, qu'il ne parle plus à sa copine pour ne penser qu'à Smash Bros, qu'il est parti se réfugier au sommet de la cordillère des Andes pour travailler ses combos Falco en toute tranquillité, tout ça pour ne pas 0-2 tel un Stéphanois à la Mitronnade.",
     "Main :  . <br><br> coucou",
     "Main : . <br><br>",
