@@ -29,8 +29,8 @@ export class PlayerChoiceComponent {
     "le boss",
     "re coucou",
     "gyfdhu d zgyde gz gdiz giuydqz ghiudqs huodq shui",
-    "re coucou",
-    "re coucou"
+    "La sainte pureté à l’état pur, travailleur, il n’hésitera pas à mettre en application tout ce qu’il sait avec son Harmonie et un bon arsenal de douilles pour chercher la victoire",
+    "Un gros fan de Wario et de techs beaucoup trop poussées pour une saucismash, si jamais il joue Falco et qu’il se retrouve avec un gyro dans les mains, gare à vous !"
   ]
 
 

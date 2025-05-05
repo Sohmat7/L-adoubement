@@ -25,7 +25,7 @@ export class CasterComponent {
     "J'ai fait le site. \n Y'a des bugs mais tranquille",
     'hfisdhofsdjoi',
     "coucou",
-    "le boss"
+    "Co-Fondateur de l’équipe et joueur de Wario ses Wafts de monthly et de Weekly n’ont visiblement pas la même frame data, il aime plein de choses mais pas Steve, ni Min-Min, Ni Kazuya, Ni Bayonetta, Ni villageois, Ni Felinferno, ni…"
   ]
 
 

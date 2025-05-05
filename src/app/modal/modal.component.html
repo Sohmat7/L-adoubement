@@ -79,7 +79,7 @@
 
     </div>
 
-    <div class="title-card-img product player-bg-image-mpt" *ngIf="data.name==='Les Deerstalkers'">
+    <div class="title-card-img product player-bg-image-mpt" *ngIf="data.name==='La MPT'">
 
     </div>
     <div class="title-card-img product player-bg-image-bls" *ngIf="data.name==='Le Blossom'">
@@ -94,12 +94,15 @@
     <div class="title-card-img product player-bg-image-mateo" *ngIf="data.name==='Qinmao'">
 
     </div>
+    <div class="title-card-img product player-bg-image-talion" *ngIf="data.name==='Talion'">
+
+    </div>
 
 
 
 
     <div class="title-card-img product">
-        {{ data.description }}
+        <p class="text"> {{ data.description }} </p>
 
         <br> <br> <br> 
         <video *ngIf="data.name==='La Douille Corp'" width="600" controls class="item-center">
@@ -116,6 +119,10 @@
 
         <video *ngIf="data.name==='Le Blossom'" width="600" controls class="item-center">
             <source src="../../assets/videos/bls.mp4" type="video/mp4">
+        </video>
+
+        <video *ngIf="data.name==='La MPT'" width="600" controls class="item-center">
+            <source src="../../assets/videos/mpt.mp4" type="video/mp4">
         </video>
 
     </div>

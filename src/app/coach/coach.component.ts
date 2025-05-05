@@ -26,11 +26,11 @@ export class CoachComponent {
     "J'ai fait le site. \n Y'a des bugs mais tranquille",
     'hfisdhofsdjoi',
     "coucou",
-    "le boss",
+    "ok bro t es pas drazai",
     "coucou",
     "le boss",
-    "coucou",
-    "le boss"
+    "Esprit fraternel, Râleur, Passionné, et fan de sa Blonde, il compte bien faire un dernier coup d’éclat avant son envol aux Etats-Unis",
+    "Le hidden boss par excellence, Main Sheik mais couteau suisse maîtrisant de nombreux personnages, son hobby, c’est de perdre avec son 45e perso en winner pour éliminer tout ses amis en loser bracket"
   ]
 
 

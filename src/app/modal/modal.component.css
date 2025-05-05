@@ -125,6 +125,10 @@
   background-image: url('../../assets/personnes/irto1.png');
 }
 
+.player-bg-image-mateo {
+  background-image: url('../../assets/personnes/mateo1.jpg');
+}
+
 .color {
     background-color: #4b5641;
     height: 100%;
@@ -214,4 +218,10 @@
 .item-center {
   display: block;
   margin: auto;
+}
+
+.text {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.8; 
 }
