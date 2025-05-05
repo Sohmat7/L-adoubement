@@ -68,14 +68,14 @@ mat-card {
     border-radius: 10px;
     height: 150px;
     background-size: cover;  
-    border: 1px solid black;
+    border: 3px solid black;
     background-color: rgba(0, 0, 0, 0.4);
 
   }
 
   .title-card-img {
     width: 100%;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 800px;
     height: 150px;
     background-size: cover;  

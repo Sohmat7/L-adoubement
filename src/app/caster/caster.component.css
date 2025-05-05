@@ -62,7 +62,7 @@ mat-card-title {
   border-radius: 10px;
   height: 350px;
   background-size: cover;  
-  border: 1px solid black;
+  border: 3px solid black;
 
 }
 .mat-card-main-title {
