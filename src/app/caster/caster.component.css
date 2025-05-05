@@ -57,6 +57,16 @@ mat-card-title {
 }
 
 
+.adb-logo {
+  display: block;
+  margin: auto;
+  margin-top: -3%;
+  background-image: url(../../assets/logo-adoubement.png);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+
 .title-card-img {
   width: 100%;
   border-radius: 10px;

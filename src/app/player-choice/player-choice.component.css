@@ -42,6 +42,27 @@
     }
   }
 
+  .adb-logo {
+    display: block;
+    margin: auto;
+    margin-top: 14%;
+    background-image: url(../../assets/logo-adoubement.png);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .next {
+    color : white;
+    font-size : 28px;
+  }
+
+  .previous {
+    color : white;
+    font-size : 28px;
+
+  }
+
   mat-card {
     background-color: transparent;
     padding: 10px;
