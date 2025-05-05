@@ -26,10 +26,16 @@
                 "glob": "**/*",
                 "input": "src/assets/",
                 "output": "/assets/"
+                
               },
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
               }
             ],
             "styles": [
