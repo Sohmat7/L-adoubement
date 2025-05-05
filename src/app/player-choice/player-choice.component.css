@@ -42,27 +42,6 @@
     }
   }
 
-  .adb-logo {
-    display: block;
-    margin: auto;
-    margin-top: 14%;
-    background-image: url(../../assets/logo-adoubement.png);
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-  }
-
-  .next {
-    color : white;
-    font-size : 28px;
-  }
-
-  .previous {
-    color : white;
-    font-size : 28px;
-
-  }
-
   mat-card {
     background-color: transparent;
     padding: 10px;
@@ -169,4 +148,43 @@
     margin: auto;
     padding-top: 35px;
     padding-bottom: 22px;
+  }
+
+  .grid {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .adb-logo {
+    display: block;
+    margin: auto;
+    margin-top: 260px;
+    background-image: url(../../assets/logo-adoubement.png);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .next {
+    color : white;
+    font-size : 28px;
+    margin-top: 350px;
+    background-image: url(../../assets/arrow-right.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .previous {
+    color : white;
+    font-size : 28px;
+    margin-top: 350px;
+    background-image: url(../../assets/arrow-left.png);
+    background-size: cover;
+    text-align: center;
+    width: 200px;
+    height: 200px;
   }

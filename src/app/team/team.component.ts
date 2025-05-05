@@ -9,12 +9,12 @@ import {
 } from '@angular/material/dialog';
 import { ModalComponent } from '../modal/modal.component';
 import { FormsModule } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 
 @Component({
   selector: 'app-player-choice',
-  imports: [ MatCard, MatCardHeader, MatCardTitle, MatCardSubtitle, MatCardActions, MatButtonModule, FormsModule ],
+  imports: [ MatCard, MatCardHeader, MatCardTitle, MatCardSubtitle, MatCardActions, MatButtonModule, FormsModule, RouterLink ],
   templateUrl: './team.component.html',
   styleUrl: './team.component.css'
 })
