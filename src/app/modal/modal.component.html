@@ -102,7 +102,7 @@
 
 
     <div class="title-card-img product">
-        <p class="text"> {{ data.description }} </p>
+        <p class="text" [innerHTML]="data.description"></p>
 
         <br> <br> <br> 
         <video *ngIf="data.name==='La Douille Corp'" width="600" controls class="item-center">

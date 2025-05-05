@@ -23,14 +23,14 @@ export class PlayerChoiceComponent {
 
 
   data = [
-    "J'ai fait le site. \n Y'a des bugs mais tranquille",
-    'hfisdhofsdjoi',
-    "coucou",
-    "le boss",
-    "re coucou",
-    "gyfdhu d zgyde gz gdiz giuydqz ghiudqs huodq shui",
-    "La sainte pureté à l’état pur, travailleur, il n’hésitera pas à mettre en application tout ce qu’il sait avec son Harmonie et un bon arsenal de douilles pour chercher la victoire",
-    "Un gros fan de Wario et de techs beaucoup trop poussées pour une saucismash, si jamais il joue Falco et qu’il se retrouve avec un gyro dans les mains, gare à vous !"
+    "Main : Falco. <br> <br> Il a des étoiles dans les yeux depuis la première sd de Daiyamondo et veut devenir comme son idole. Que ce soit avec l’alcool ou ses side B il finira par tomber mais fera tout son possible pour t’emmener avec lui",
+    'Main :  . <br><br> hfisdhofsdjoi',
+    "Main :  . <br><br> coucou",
+    "Main : . <br><br>",
+    "Peu2Vertu aka La Gatling des Bouche du Rhône <br> <br> Main : Yoshi / Lucina / Falcon. <br><br> Ex cambrioleur qui a obtenu une réduction de peine après avoir gagné toutes les weeklies de la prison de Marseille",
+    "Lucas Ocarno aka La canine de Crachiers <br> <br> Main : Snake / Sephiroth. <br><br> Addict à la ketamine qui se réfugie dans Smash Bros pour combler son addiction ",
+    "Main :  . <br><br> La sainte pureté à l’état pur, travailleur, il n’hésitera pas à mettre en application tout ce qu’il sait avec son Harmonie et un bon arsenal de douilles pour chercher la victoire",
+    "Main :  . <br><br> Un gros fan de Wario et de techs beaucoup trop poussées pour une saucismash, si jamais il joue Falco et qu’il se retrouve avec un gyro dans les mains, gare à vous !"
   ]
 
 
