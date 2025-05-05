@@ -112,3 +112,36 @@
     display: block;
     margin: auto;
   }
+  
+.team-bg-image-mpt {
+  background-image: url('../../assets/mpt-logo.png');
+  background-size: cover;
+}
+
+.team-bg-image-dc {
+  background-image: url('../../assets/cd-logo.png');
+  background-size: cover;
+}
+
+.team-bg-image-ht {
+  background-image: url('../../assets/ht-logo.png');
+  background-size: cover;
+}
+
+.team-bg-image-bls {
+  background-image: url('../../assets/blossom-logo.png');
+  background-size: cover;
+}
+
+.image-div-spe-ht {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 340px;
+}
+.image-div {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
