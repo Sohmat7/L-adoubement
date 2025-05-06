@@ -9,6 +9,7 @@ import { CoachComponent } from './coach/coach.component';
 import { TeamComponent } from './team/team.component';
 import { StaffComponent } from './staff/staff.component';
 import { HomeComponent } from './home/home.component';
+import { BracketComponent } from './bracket/bracket.component';
 
 
 export const appRoutes: Routes = [
@@ -41,6 +42,10 @@ export const appRoutes: Routes = [
     {
         path: 'team',
         component: TeamComponent
+    },
+    {
+        path: 'bracket',
+        component: BracketComponent
     },
     {
         path: 'staff',

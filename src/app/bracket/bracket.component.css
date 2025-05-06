@@ -1,0 +1,249 @@
+
+.color {
+    background-color: #4b5641;
+    background-image: url(../../assets/adoubement2.png);
+    background-size: cover;
+    height: 118%;
+    color: white;
+  }
+  
+  
+  .fx {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .fx-row-wrap {
+      flex-flow: row wrap;
+      }
+    
+    .fx-layout-align-space-evenly-stretch {
+      place-content: stretch space-evenly;
+      align-items: stretch;
+    }
+    
+    .product {
+      flex: 1 0 48%; /* explanation below */
+      margin: 1%;
+      height: 350px;
+      width: 40%;
+    
+      @media screen and (max-width: 599px) {
+        flex: 1 1 calc(90% - 16px);
+        box-sizing: border-box;
+        min-width: calc(90% - 16px);
+        max-width: 100%;
+      }
+    
+      @media screen and (min-width: 600px) and (max-width: 959px) {
+        flex: 0 0 calc(50% - 16px);
+        box-sizing: border-box;
+        min-width: calc(50% - 16px);
+        max-width: calc(50% - 16px);
+      }
+    }
+  
+    @font-face {
+      font-family: 'Norse'; /*a name to be used later*/
+      src: url('../../../public/assets/fonts/norse/Norsebold.otf'); /*URL to font*/
+    }
+  
+
+    
+  .grid {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .adb-logo {
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    background-image: url(../../assets/logo-adoubement.png);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+  
+  .next {
+    color : white;
+    font-size : 28px;
+    background-image: url(../../assets/arrow-right.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .previous {
+    color : white;
+    font-size : 28px;
+    background-image: url(../../assets/arrow-left.png);
+    background-size: cover;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .theme {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .bracket {
+    padding: 40px;
+    margin: 50px;
+  }
+  .bracket {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .match {
+    position: relative;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    max-width: 240px;
+    height: 62px;
+    margin: 12px 60px 12px 0;
+  }
+  .match .match-top {
+    border-radius: 2px 2px 0 0;
+  }
+  .match .match-bottom {
+    border-radius: 0 0 2px 2px;
+  }
+  .match .team {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    position: relative;
+  }
+  .match .team span {
+    padding-left: 8px;
+  }
+  .match .team span:last-child {
+    padding-right: 8px;
+  }
+  .match .team .score {
+    margin-left: auto;
+  }
+  .match .team:first-child {
+    margin-bottom: -1px;
+  }
+  .match-lines {
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    margin-top: 0px;
+    right: -1px;
+  }
+  .match-lines .line {
+    background: red;
+    position: absolute;
+  }
+  .match-lines .line.one {
+    height: 1px;
+    width: 30px;
+  }
+  .match-lines .line.two {
+    height: 44px;
+    width: 1px;
+    left: 29px;
+  }
+  .match-lines.alt {
+    left: -30px;
+  }
+  .match:nth-child(even) .match-lines .line.two {
+    transform: translate(0, -100%);
+  }
+  .column:first-child .match-lines.alt {
+    display: none;
+  }
+  .column:last-child .match-lines {
+    display: none;
+  }
+  .column:last-child .match-lines.alt {
+    display: block;
+  }
+  .column:nth-child(2) .match-lines .line.two {
+    height: 88px;
+  }
+  .column:nth-child(3) .match-lines .line.two {
+    height: 175px;
+  }
+  .column:nth-child(4) .match-lines .line.two {
+    height: 262px;
+  }
+  .column:nth-child(5) .match-lines .line.two {
+    height: 349px;
+  }
+  .disable-image .image,
+  .disable-seed .seed,
+  .disable-name .name,
+  .disable-score .score {
+    display: none !important;
+  }
+  .disable-borders {
+    border-width: 0px !important;
+  }
+  .disable-borders .team {
+    border-width: 0px !important;
+  }
+  .disable-seperator .match-top {
+    border-bottom: 0px !important;
+  }
+  .disable-seperator .match-bottom {
+    border-top: 0px !important;
+  }
+  .disable-seperator .team:first-child {
+    margin-bottom: 0px;
+  }
+
+input {
+  width: 25px !important;
+}
+
+  /* Dark Theme */
+.theme-dark {
+  }
+  .theme-dark .match-lines .line {
+    background: #36404e;
+  }
+  .theme-dark .team {
+    background: #182026;
+    border-color: #232c36;
+    color: #6b798c;
+  }
+  .theme-dark .winner-top .match-top,
+  .theme-dark .winner-bottom .match-bottom {
+    background: #232c36;
+    color: #e3e8ef;
+    border-color: #36404e;
+    z-index: 1;
+  }
+  .theme-dark .winner-top .match-top .score,
+  .theme-dark .winner-bottom .match-bottom .score {
+    color: #03d9ce;
+  }
+  .theme-dark .match .seed {
+    font-size: 12px;
+    min-width: 10px;
+  }
+  .theme-dark .match .score {
+    font-size: 14px;
+  }
