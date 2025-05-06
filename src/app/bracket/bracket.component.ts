@@ -98,14 +98,14 @@ export class BracketComponent {
       document.getElementById("p6")?.classList.remove("match-top")
       document.getElementById("p6")?.classList.add("match-bottom")
       this.l3 = "Peu2Vertu"
-      this.w3 = "Faroc"
+      this.w3 = "Picpic7"
       
     }
     else if(this.score[5] === 3 && this.score[4] < 3) {
       document.getElementById("p5")?.classList.remove("match-top")
       document.getElementById("p5")?.classList.add("match-bottom")
       this.w3 = "Peu2Vertu"
-      this.l3 = "Faroc"
+      this.l3 = "Picpic7"
 
     }
     else {
@@ -121,7 +121,7 @@ export class BracketComponent {
     if(this.score[6] === 3 && this.score[7] < 3) {
       document.getElementById("p8")?.classList.remove("match-top")
       document.getElementById("p8")?.classList.add("match-bottom")
-      this.w4 = "Picpic7"
+      this.w4 = "Faroc"
       this.l4 = "J44J"
       
     }
@@ -129,7 +129,7 @@ export class BracketComponent {
       document.getElementById("p7")?.classList.remove("match-top")
       document.getElementById("p7")?.classList.add("match-bottom")
       this.w4 = "J44J"
-      this.l4 = "Picpic7"
+      this.l4 = "Faroc"
 
     }
     else {
