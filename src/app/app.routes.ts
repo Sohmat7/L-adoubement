@@ -10,6 +10,7 @@ import { TeamComponent } from './team/team.component';
 import { StaffComponent } from './staff/staff.component';
 import { HomeComponent } from './home/home.component';
 import { BracketComponent } from './bracket/bracket.component';
+import { ClassementComponent } from './classement/classement.component';
 
 
 export const appRoutes: Routes = [
@@ -50,6 +51,10 @@ export const appRoutes: Routes = [
     {
         path: 'staff',
         component: StaffComponent
+    },
+    {
+        path: 'classement',
+        component: ClassementComponent
     },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     
