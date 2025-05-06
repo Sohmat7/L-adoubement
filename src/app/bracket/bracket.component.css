@@ -1,9 +1,8 @@
-
 .color {
     background-color: #4b5641;
     background-image: url(../../assets/adoubement2.png);
     background-size: cover;
-    height: 118%;
+    height: 90%;
     color: white;
   }
   
@@ -88,9 +87,6 @@
   }
   
   .theme {
-    height: 100%;
-    width: 100%;
-    position: absolute;
   }
   .bracket {
     padding: 40px;
@@ -247,5 +243,7 @@ input {
   }
 
   .winner-bracket {
-    height: 500px;
+    height: 370px;
   }
+
+  
