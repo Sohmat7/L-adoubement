@@ -37,6 +37,8 @@ export class BracketComponent {
   l12 = ""
   l13 = ""
 
+  texte = "Pour participer à notre concours de prédiction et tenter de remporter une Switch Customisée, postez une capture d'écran de votre bracket sur X en mentionnant @Deer_Esports"
+
   getScore(event: Event) {
 
     this.score[Number((event.target as HTMLInputElement).id)] = Number((event.target as HTMLInputElement).value)
@@ -48,13 +50,13 @@ export class BracketComponent {
       document.getElementById("p2")?.classList.remove("match-top")
       document.getElementById("p2")?.classList.add("match-bottom")
       this.w1 = "Ocarno"
-      this.l1 = "Maxyoursgarou"
+      this.l1 = "MaxyOursGarou"
       
     }
     else if(this.score[1] === 3 && this.score[0] < 3) {
       document.getElementById("p1")?.classList.remove("match-top")
       document.getElementById("p1")?.classList.add("match-bottom")
-      this.w1 = "Maxyoursgarou"
+      this.w1 = "MaxyOursGarou"
       this.l1 = "Ocarno"
 
     }

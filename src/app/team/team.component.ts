@@ -14,7 +14,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-player-choice',
-  imports: [ MatCard, MatCardHeader, MatCardTitle, MatCardSubtitle, MatCardActions, MatButtonModule, FormsModule, RouterLink ],
+  imports: [ MatCard, MatCardHeader, MatCardTitle, MatCardActions, MatButtonModule, FormsModule, RouterLink ],
   templateUrl: './team.component.html',
   styleUrl: './team.component.css'
 })
@@ -22,10 +22,10 @@ export class TeamComponent {
 
 
   data = [
-    "bla bla",
-    'hfisdhofsdjoi',
-    "coucou",
-    "le edjzuiahdqs",
+    "MPT : Les Terres Paysannes à l'Ouest lointain",
+    "DC : Un Royaumes de Sages et d'Anciens",
+    "HT : Un Clan de Brigands soi-disant retraités",
+    "BLS : L'Empire Fleuri",
   ]
 
 
@@ -38,7 +38,6 @@ export class TeamComponent {
     this.dialog.open(ModalComponent, {
       data: {
         name: name,
-        description: this.data[id]
       },
       height: '900px',
       width: '1500px',
