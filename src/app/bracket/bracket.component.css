@@ -246,4 +246,6 @@ input {
     height: 370px;
   }
 
-  
+  .final-reset-disable {
+    pointer-events:none;
+  }

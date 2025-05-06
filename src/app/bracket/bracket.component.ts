@@ -355,8 +355,19 @@ export class BracketComponent {
       document.getElementById("p16")?.classList.remove("match-top")
       document.getElementById("p16")?.classList.add("match-bottom")
       
+      document.getElementById("p114")?.classList.remove("match-top")
+      document.getElementById("p114")?.classList.add("match-bottom")
+      
+      document.getElementById("p113")?.classList.remove("match-top")
+      document.getElementById("p113")?.classList.add("match-bottom")
+      
+      document.getElementById("28")?.classList.add("final-reset-disable")
+      document.getElementById("29")?.classList.add("final-reset-disable")
+      
     }
     else if(this.score[15] === 3 && this.score[14] < 3) {
+      document.getElementById("28")?.classList.remove("final-reset-disable")
+      document.getElementById("29")?.classList.remove("final-reset-disable")
       document.getElementById("p15")?.classList.remove("match-top")
       document.getElementById("p15")?.classList.add("match-bottom")
       this.w9 = this.w7
@@ -368,6 +379,8 @@ export class BracketComponent {
       document.getElementById("p16")?.classList.remove("match-bottom")
       document.getElementById("p15")?.classList.add("match-top")
       document.getElementById("p16")?.classList.add("match-top")
+      document.getElementById("28")?.classList.remove("final-reset-disable")
+      document.getElementById("29")?.classList.remove("final-reset-disable")
     }
 
     if(this.score[28] === 3 && this.score[29] < 3) {
@@ -383,11 +396,14 @@ export class BracketComponent {
 
     }
     else {
-      document.getElementById("p114")?.classList.remove("match-bottom")
-      document.getElementById("p113")?.classList.remove("match-bottom")
-      document.getElementById("p113")?.classList.add("match-top")
-      document.getElementById("p114")?.classList.add("match-top")
-    }
+      if(this.score[14] !== 3) {
+        document.getElementById("p114")?.classList.remove("match-bottom")
+        document.getElementById("p113")?.classList.remove("match-bottom")
+        document.getElementById("p113")?.classList.add("match-top")
+        document.getElementById("p114")?.classList.add("match-top")
+    
+        }
+      }
 
 
 

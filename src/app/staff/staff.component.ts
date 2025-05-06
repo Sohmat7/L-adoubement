@@ -24,7 +24,7 @@ export class StaffComponent {
   data = [
     "J'ai fait le site. \n Y'a des bugs mais tranquille",
     "Faustin \"Rouxblart\" <br><br> Main : Inkling <br><br> Presque meilleur joueur Mario Kart de Lyon (entre top 2 et top 5 mais azy la compétition est dure). N'avait pas conscience que chasser des péd*philes sur clash of clan quand on a 14ans c'est pas une très bonne idée mais c'est quand même vachement drôle. Alterne entre salons privés MWII et Amour Sucré, Lysandre dans mes veines. Inkling m'a donné une carrière sur smash, ne sait pas boo-yah.",
-    "coucou",
+    "L'homme sans qui rien ne serait possible, l'hôte de la soirée... Il a fait l'erreur d'un jour accepter des smashers sans-abri dans son bar, depuis il écoute les plaintes de Slacker et les pop-offs lugubres de Nexus tout en tendant un Jaegerbomb d'une main et en tirant une pinte de verte de l'autre.",
     "le boss",
     "re coucou",
     "gyfdhu d zgyde gz gdiz giuydqz ghiudqs huodq shui"
