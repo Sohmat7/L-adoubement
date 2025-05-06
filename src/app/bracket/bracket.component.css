@@ -148,7 +148,6 @@
     display: block;
     position: absolute;
     top: 50%;
-    bottom: 0;
     margin-top: 0px;
     right: -1px;
   }
@@ -234,11 +233,10 @@ input {
     background: #232c36;
     color: #e3e8ef;
     border-color: #36404e;
-    z-index: 1;
   }
   .theme-dark .winner-top .match-top .score,
   .theme-dark .winner-bottom .match-bottom .score {
-    color: #03d9ce;
+    color: black;
   }
   .theme-dark .match .seed {
     font-size: 12px;
@@ -246,4 +244,8 @@ input {
   }
   .theme-dark .match .score {
     font-size: 14px;
+  }
+
+  .winner-bracket {
+    height: 500px;
   }

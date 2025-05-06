@@ -370,6 +370,24 @@ export class BracketComponent {
       document.getElementById("p16")?.classList.add("match-top")
     }
 
+    if(this.score[28] === 3 && this.score[29] < 3) {
+      document.getElementById("p114")?.classList.remove("match-top")
+      document.getElementById("p114")?.classList.add("match-bottom")
+      
+    }
+    else if(this.score[29] === 3 && this.score[28] < 3) {
+      document.getElementById("p113")?.classList.remove("match-top")
+      document.getElementById("p113")?.classList.add("match-bottom")
+      this.w9 = this.w7
+      this.w10 = this.w8
+
+    }
+    else {
+      document.getElementById("p114")?.classList.remove("match-bottom")
+      document.getElementById("p113")?.classList.remove("match-bottom")
+      document.getElementById("p113")?.classList.add("match-top")
+      document.getElementById("p114")?.classList.add("match-top")
+    }
 
 
 
