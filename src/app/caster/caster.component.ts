@@ -22,10 +22,10 @@ export class CasterComponent {
 
 
   data = [
-    "Main : La Plante Piranha. <br><br> Membre original du plant gang. Si tu essayes de lui marcher sur les pieds il te crachera dessus avec ses fameux kill setups à 0% et son énorme boule. Véritable encyclopédie du smash compétitif, la base de données dans sa tête fonctionne mieux que start.gg.",
-    'hfisdhofsdjoi',
+    "Clément \"Clemclou\"  AKA Cactus Clem <br><br> Main : La Plante Piranha. <br><br> Membre original du plant gang. Si tu essayes de lui marcher sur les pieds il te crachera dessus avec ses fameux kill setups à 0% et son énorme boule. Véritable encyclopédie du smash compétitif, la base de données dans sa tête fonctionne mieux que start.gg.",
+    "Sourif <br> <br> Main : Amphinobi <br> <br> Un gars plutôt discret avec les gens qu'il connaît pas trop mais qui est bon vivant avec ses amis, rapport au jeu très chill, pas spécialement try hard, adore rire et l'humour absurde",
     "Romain KeyFace aka Le dompteur de dragons <br> <br> Main : Bowser Jr / Meta Knight. <br> <br> Ancien archimage de l'académie du Puy en Velay, il est en quête de nouvelles arcanes dans le cast",
-    "Main : Wario. <br><br> Co-Fondateur de l’équipe et joueur de Wario ses Wafts de monthly et de Weekly n’ont visiblement pas la même frame data, il aime plein de choses mais pas Steve, ni Min-Min, Ni Kazuya, Ni Bayonetta, Ni villageois, Ni Felinferno, ni…"
+    "Enzo \"Slacker\" <br><br> Main : Wario. <br><br> Co-Fondateur de l’équipe et joueur de Wario ses Wafts de monthly et de Weekly n’ont visiblement pas la même frame data, il aime plein de choses mais pas Steve, ni Min-Min, Ni Kazuya, Ni Bayonetta, Ni villageois, Ni Felinferno, ni…"
   ]
 
 
