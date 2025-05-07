@@ -80,6 +80,9 @@ mat-card {
     border: 3px solid black;
     background-color: rgba(0, 0, 0, 0.4);
 
+    @media screen and (max-width: 700px) {
+      height: 120px;
+    }
   }
 
   .title-card-img {
@@ -160,6 +163,9 @@ mat-card {
     display: block;
     margin: auto;
     padding-bottom: 42px;
+    @media screen and (max-width: 700px) {
+      padding-bottom: 4%;
+    }
   }
 
   .mat-card-main-title {
@@ -185,6 +191,12 @@ mat-card {
     background-size: cover;
     width: 350px;
     height: 350px;
+    @media screen and (max-width: 700px) {
+      background-size: cover;
+      width: 370px;
+      height: 200px;
+      margin-top: 0px;
+    }
   }
 
   .next {
@@ -196,6 +208,11 @@ mat-card {
     width: 200px;
     height: 200px;
     text-align: center;
+    @media screen and (max-width: 700px) {
+      width: 200px;
+      height: 200px;
+      margin-top: 0px;
+    }
   }
 
   .previous {
@@ -207,4 +224,9 @@ mat-card {
     text-align: center;
     width: 200px;
     height: 200px;
+    @media screen and (max-width: 700px) {
+      width: 200px;
+      height: 200px;
+      margin-top: 0px;
+    }
   }
