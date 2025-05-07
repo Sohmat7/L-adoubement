@@ -81,7 +81,7 @@ mat-card-title {
   border: 3px solid black;
   
   @media screen and (max-width: 700px) {
-    height: 200px;
+    height: 130px;
   }
 
 }
@@ -91,6 +91,10 @@ mat-card-title {
   margin: auto;
   padding-top: 35px;
   padding-bottom: 22px;
+  @media screen and (max-width: 700px) {
+    
+    padding-top: 5%;
+  }
 }
 
 .image {
@@ -153,6 +157,9 @@ mat-card-actions {
   font-family: 'Norse';
   color: white;
   font-size: 60px;
+  @media screen and (max-width: 700px) {
+    font-size: 40px;
+  }
 }
 
 .object-align {
@@ -227,6 +234,14 @@ mat-card-actions {
   padding-top: 180px;
   
   @media screen and (max-width: 700px) {
-    padding-top: 7%;
+    padding-top: 2%;
+    font-size: 100px!important;
+  }
+}
+
+.font-size-var {
+  font-size: 22px;
+  @media screen and (max-width: 700px) {
+    font-size: 14px!important;
   }
 }
