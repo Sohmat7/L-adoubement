@@ -12,11 +12,14 @@
   
   .fx-layout-align-space-evenly-stretch {
     place-content: stretch space-evenly;
-    align-items: stretch;
   }
   
   .button-space {
     margin-right: 40px;
+    @media screen and (max-width: 700px) {
+      
+      margin-right: 0px;
+    }
   }
 
 .color {
