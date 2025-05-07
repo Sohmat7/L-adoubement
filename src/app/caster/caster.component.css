@@ -6,7 +6,8 @@
   height: 118%;
   @media screen and (max-width: 700px) {
     background-size: contain;
-    height: 230%;
+    display: block;
+    overflow: auto;
   }
 }
 

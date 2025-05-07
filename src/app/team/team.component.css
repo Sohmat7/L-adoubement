@@ -4,6 +4,11 @@
   background-image: url(../../assets/adoubement2.png);
   background-size: cover;
   height: 118%;
+  @media screen and (max-width: 700px) {
+    background-size: contain;
+    display: block;
+    overflow: auto;
+  }
 }
 
 

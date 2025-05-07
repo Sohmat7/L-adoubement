@@ -3,10 +3,12 @@
   background-color: #4b5641;
   background-image: url(../../assets/adoubement2.png);
   background-size: cover;
-  height: 100%;
+  display: block;
+  overflow: auto;
   @media screen and (max-width: 700px) {
+    display: block;
+    overflow: auto;
     background-size: contain;
-    height: 300%;
   }
 }
 
