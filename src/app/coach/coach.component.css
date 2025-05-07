@@ -12,6 +12,15 @@ mat-card {
     display: block;
     overflow: auto;
     background-size: contain;
+    padding-top: 130px!important;
+  }
+}
+
+.width-80 {
+  
+  @media screen and (max-width: 700px) {
+    width: 92%;
+    margin-left: 4%;
   }
 }
 
@@ -39,19 +48,14 @@ mat-card {
     height: 200px;
     max-width: 24%;
   
-    @media screen and (max-width: 599px) {
+    @media screen and (max-width: 700px) {
       flex: 1 1 calc(90% - 16px);
       box-sizing: border-box;
       min-width: calc(90% - 16px);
       max-width: 100%;
+      height: 520px;
     }
-  
-    @media screen and (min-width: 600px) and (max-width: 959px) {
-      flex: 0 0 calc(50% - 16px);
-      box-sizing: border-box;
-      min-width: calc(50% - 16px);
-      max-width: calc(50% - 16px);
-    }
+
   }
 
   mat-card {
