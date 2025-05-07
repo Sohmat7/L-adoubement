@@ -4,6 +4,10 @@
   background-image: url(../../assets/adoubement2.png);
   background-size: cover;
   height: 118%;
+  @media screen and (max-width: 700px) {
+    background-size: contain;
+    height: 230%;
+  }
 }
 
 .fx {
@@ -165,28 +169,50 @@ mat-card-actions {
 }
 
 .adb-logo {
+  display: block;
+  margin: auto;
+  margin-top: 260px;
   background-image: url(../../assets/logo-adoubement.png);
   background-size: cover;
   width: 350px;
   height: 350px;
+  
+  @media screen and (max-width: 700px) {
+    background-size: cover;
+    width: 370px;
+    height: 200px;
+    margin-top: 0px;
+  }
 }
 
 .next {
   color : white;
   font-size : 28px;
+  margin-top: 350px;
   background-image: url(../../assets/arrow-right.png);
   background-size: cover;
   width: 200px;
   height: 200px;
   text-align: center;
+  @media screen and (max-width: 700px) {
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+  }
 }
 
 .previous {
   color : white;
   font-size : 28px;
+  margin-top: 350px;
   background-image: url(../../assets/arrow-left.png);
   background-size: cover;
   text-align: center;
   width: 200px;
   height: 200px;
+  @media screen and (max-width: 700px) {
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+  }
 }

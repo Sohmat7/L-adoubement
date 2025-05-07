@@ -51,13 +51,16 @@
   .text-center {
     display: block;
     margin: auto;
-
+    
+    @media screen and (max-width: 700px) {
+      text-align: center;
+      padding-right: 10%;
+    }
   }
 
   .logo {
-    width: 3%;
-  }
-
-  .test {
-    margin-left: -25%;
+    background-image: url(../../assets/logo-test.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
   }

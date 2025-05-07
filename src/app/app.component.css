@@ -2,8 +2,10 @@
     display: flex;
     height: 100%;
     padding: 10px 10px 10px 10px;
+    width: 100%;
   }
   
+
   .fx-row-wrap {
     flex-flow: row wrap;
     background-color: #6a5b51; 
