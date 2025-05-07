@@ -9,6 +9,7 @@
     display: block;
     overflow: auto;
     background-size: contain;
+    padding-top: 130px!important;
   }
 }
 
